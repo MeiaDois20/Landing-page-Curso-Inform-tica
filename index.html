@@ -1,47 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabalho Israel</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <header>
         <h1 id="header-1">Informática</h1>
         <nav>
             <div class="container">
                 <ul>
-                    <li class="item"><a href="#">Início</a></li>
+                    <li class="item"><a href="#">Sobre o Curso</a></li>
                     <li class="item"><a href="#">Inicio</a></li>
                     <li class="item"><a href="#">Inicio</a></li>
                     <li class="item"><a href="#">Inicio</a></li>
                 </ul>
 
                 <div class="container-search">
-                    <input type="search" name="search" id="search" placeholder="Pesquisa" style="border-radius: 15px;">
+                    <input type="search" name="search" id="search" placeholder="Pesquisa">
                 </div>
             </div>
         </nav>
     </header>
 
-    <h1 style="margin-left:20px;">Sobre</h1>
+    <h2 id="subtitle" class="subtitle">Sobre o curso:</h2>
 
-    <h2 style="margin-left:40px;">Curso Técnico em Informática</h2>
-
-    <div style="border:3px solid; padding:12px; max-width:600px; background-color: white; margin: 20px;">
+    <div class="Text-Box caixa-sobre" id="text-box">
         <p>
-        O Curso Técnico em Informática prepara o estudante para atuar em diversas áreas de tecnologia,
-        combinando fundamentos de programação, infraestrutura, design e gestão. Estruturado em três anos,
-        o curso oferece formação prática e aplicada para quem deseja ingressar rapidamente no mercado de TI
-        ou seguir estudos superiores.
+            O Curso Técnico em Informática prepara o estudante para atuar em diversas áreas de tecnologia,
+            combinando fundamentos de programação, infraestrutura, design e gestão. Estruturado em três anos,
+            o curso oferece formação prática e aplicada para quem deseja ingressar rapidamente no mercado de TI
+            ou seguir estudos superiores.
         </p>
     </div>
 
-    <h2 style="margin-left:40px;">Professores:</h2>
-    
-</body>
+    <h2 class="subtitle">Professores:</h2>
 
+<div class="table-wrap">
+    <table class="prof">
+    <thead>
+        <tr>
+            <th class="info-prof">Nome</th>
+            <th class="info-prof">Disciplinas</th>
+            <th class="info-prof">Contato</th>
+        </tr>
+    </thead>
+    <t body>
+        <tr>
+            <td class="info-prof">Israel</td>
+            <td class="info-prof">
+                <ul class="disc-list">
+                    <li>HTML5 / CSS3</li>
+                    <li>Algoritmos</li>
+                    <li>POO</li>
+                    <li>Banco de dados</li>
+                    <li>Desenvolvimento WEB</li>
+                </ul>
+            </td>
+            <td class="info-prof">israel@email.com</td>
+        </tr>
+        <tr>
+            <td class="info-prof">Homero</td>
+            <td class="info-prof">
+                <ul class="disc-list">
+                    <li>Arquitetura e manutenção</li>
+                    <li>Sistemas Operacionais</li>
+                </ul>
+            </td>
+            <td class="info-prof">homero@email.com</td>
+        </tr>
+        <tr>
+            <td class="info-prof">Felizardo</td>
+            <td class="info-prof">
+                <ul class="disc-list">
+                    <li>Programação</li>
+                    <li>Banco de Dados</li>
+                    <li>Engenharia de Software</li>
+                    <li>Testes</li>
+                </ul>
+            </td>
+            <td class="info-prof">felizardo@email.com</td>
+        </tr>
+    </tbody>
+</table>
+
+</div>
+</body>
 </html>

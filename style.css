@@ -15,7 +15,7 @@
 
 body {
   font-family: "Poppins", Arial, sans-serif;
-  background-image: url(/imagens/abstract-computer-technology-background-with-circuit-board-and-circle-tech-illustration-vector-2801730806.jpg);
+  background-image: url(/imagens/infor-template.jpg);
   background-color: var(--cor-fundo);
   color: var(--cor-secundaria);
   line-height: 1.6;
@@ -109,6 +109,18 @@ ul {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
+#search {
+  padding: 10px 40px 10px 15px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  font-size: 0.95rem;
+  background-color: #fff;
+  width: 260px;
+  transition: box-shadow var(--transicao), width var(--transicao);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
 #search:focus {
   width: 320px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
@@ -122,6 +134,61 @@ ul {
   transform: translateY(-50%);
   opacity: 0.6;
 }
+
+.subtitle {
+  margin-left: 40px;
+  font-weight: 1000;
+}
+
+.caixa-sobre {
+  border: 3px solid;
+  padding: 12px;
+  max-width: 600px;
+  background-color: white;
+  margin: 20px;
+}
+
+.Text-Box p {
+  font-weight: 600;
+}
+
+.prof {
+  border: 1px solid black;
+  background: var(--cor-fundo);
+  font-weight: 700;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+.disc-list {
+  align-items: center;
+  list-style: disc;
+  padding-left: 18px;
+  margin: 0;
+}
+
+.disc-list li {
+  display: block;
+  margin: 5px 0px 5px 0px;
+  margin-right: 5px;
+  white-space: normal;
+  font-size: 18px;
+}
+
+.info-prof {
+  text-align: start;
+  font-size: 20px;
+  border: 1px solid black;
+  padding: 5px;
+  vertical-align: top;
+  background: #fff;
+}
+
+.prof thead th,
+.prof thead .info-prof {
+  text-align: center;
+  vertical-align: middle;
+}
+
 
 @keyframes fadeInDown {
   from {
